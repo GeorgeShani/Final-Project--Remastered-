@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/Currency.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Final Project by Giorgi Shanidze</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo-container">
+                <h1><a href="./index.html">Finclvr</a></h1>
+            </div>
+            <div class="nav-links-container">
+                <ul class="nav-links-list">
+                    <li class="nav-link-item">
+                        <a href="./pages/signup.html" class="login-link login-link-1">
+                            <i class="bi bi-person-circle"></i> Log In
+                        </a>
+                    </li>
+                    <li class="nav-link-item">
+                        <a href="#about-section" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-link-item">
+                        <a href="#speakers-section" class="nav-link">Speakers</a>
+                    </li>
+                    <li class="nav-link-item">
+                        <a href="#topics-section" class="nav-link">Topics</a>
+                    </li>
+                    <li class="nav-link-item">
+                        <a href="./pages/signup.html" class="login-link login-link-2">
+                            <i class="bi bi-person-circle"></i> Log In
+                        </a>
+                    </li>
+                    <li class="nav-link-item">
+                        <a href="./pages/preregister-page.html" class="register-link">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger-menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="announcement-section">
+            <div class="webinar-date">
+                <p><span>Live Webinar</span> • 5 Nov 2035 | 6 PM</p>
+                <h1>The Tools You Need <br>for Smarter Finances</h1>
+                <button onclick="redirectToPreregister()" class="register-now-btn" type="submit">Register Now</button>
+            </div>
+            <div class="video-container">
+                <video src="./video/¢oins_And_Ca$h.MOV" autoplay loop playsinline muted></video>
+            </div>
+        </div>
+        <div id="about-section" class="section">
+            <div class="about-descr">
+                <h1>About the Webinar</h1>
+                <h4>Fintech services are revolutionizing the banking industry and the way we handle our finances.</h4>
+                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
+                add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a
+                little more about you.</p>
+            </div>
+            <div class="image-section" onmouseover="activateAnimation()" onmouseout="resetAnimation()">
+                <div class="image-section-inner">
+                    <img id="image" src="./images/Girl_at_the_laptop.webp" alt="">
+                    <div id="rectangle-1"></div>
+                    <div id="rectangle-2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="speakers-section" class="section">
+            <div class="speaker-introduction">
+                <h3>Meet the Speakers</h3>
+            </div>
+            <div class="speaker-profiles-section">
+                <div class="speaker-profile-1">
+                    <img src="./images/Speaker_1.webp" alt="" class="speaker-image">
+                    <h4 class="profile-id">Tony Selby</h4>
+                    <p class="profile-descr">Marketing Manager at Finclvr</p>
+                    <p><a href="">LinkedIn</a></p>
+                </div>
+                <div class="speaker-profile-2">
+                    <img src="./images/Speaker_2.webp" alt="" class="speaker-image">
+                    <h4 class="profile-id">Anne Berna</h4>
+                    <p class="profile-descr">Marketing Analyst at Finclvr</p>
+                    <p><a href="">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="topics-section" class="section">
+            <div class="title-container">
+                <h3 class="topics-main-title">What You Will Learn</h3>
+            </div>
+            <div class="topics-container">
+                <div class="topic-1">
+                    <div class="topic-image">
+                        <img src="./images/Picture_1.png" alt="">
+                    </div>
+                    <div class="topic-descr">
+                        <p>How to identify which tools and services will upgrade your business.</p>
+                    </div>
+                </div>
+                <div class="topic-2">
+                    <div class="topic-image">
+                        <img src="./images/Picture_2.png" alt="">
+                    </div>
+                    <div class="topic-descr">
+                        <p>Tips and tricks to manage your finances more efficiently.</p>
+                    </div>
+                </div>
+                <div class="topic-3">
+                    <div class="topic-image">
+                        <img src="./images/Picture_3.png" alt="">
+                    </div>
+                    <div class="topic-descr">
+                        <p>How to overcome hesitancy related to fraud, privacy and security.</p>
+                    </div>
+                </div>
+                <button onclick="redirectToPreregister()" class="reserve-spot-btn" type="submit">Reserve My Spot</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter-container">
+                <h4 class="newsletter-title">Stay Ahead in a Rapidly Changing World</h4>
+                <p class="sign-up-option">Sign up for our newsletter</p>
+                <div class="input-container">
+                    <label for="footer-email-input">Email *</label>
+                    <div class="input-n-button">
+                        <input type="email" id="footer-email-input" name="footer-email-input" required>
+                        <button class="subscribe-btn" type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts">
+                <h4 class="contacts-title">Contact Us</h4>
+                <p class="email-info">info@mysite.com</p>
+                <p class="website-visit">Visit my <a href="">website</a></p>
+                <p class="main-address">
+                    Terry Francine Street <br>
+                    San Francisco, CA 94158
+                </p>
+                <ul class="social-media-links">
+                    <li class="social-media-link-item">
+                        <a target="_blank" href="https://www.facebook.com/wix" class="social-media-link fa fa-facebook"></a>
+                    </li>
+                    <li class="social-media-link-item">
+                        <a target="_blank" href="https://www.linkedin.com/company/wix-com?trk=biz-companies-cym" class="social-media-link fa fa-linkedin"></a>
+                    </li>
+                    <li class="social-media-link-item">
+                        <a target="_blank" href="https://twitter.com/wix" class="social-media-link fa fa-twitter"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-section">
+            <p>&copy; 2035 by Finclvr. Powered and secured by <a target="_blank" href="https://www.wix.com">Wix</a></p>
+        </div>
+    </footer>
+    <script src="./scripts/link-color-change.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
