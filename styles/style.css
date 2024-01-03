@@ -1250,7 +1250,7 @@ footer .copyright-section a {
 .log-in-wrapper .log-in-form-2 .log-in-form-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-email {
@@ -1304,8 +1304,11 @@ footer .copyright-section a {
 .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  width: 304px;
+  height: 34px;
+  margin-bottom: 24px;
 }
 .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container .forgot-password {
   font-size: 16px;
@@ -1682,6 +1685,180 @@ footer .copyright-section a {
   }
   .reg-wrapper .event-box-wrapper .event-box .event-box-date {
     font-size: 12px;
+  }
+  .sign-up-wrapper .exit-icon a {
+    position: fixed;
+    top: 50px;
+    right: 66px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .sign-up-title h1 {
+    font-size: 40px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .sign-up-title p {
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container {
+    margin-top: 24px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .google-sign-up {
+    width: 266px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .google-sign-up img {
+    width: 22px;
+    height: 22px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .facebook-sign-up {
+    width: 266px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .facebook-sign-up i {
+    font-size: 22px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines .line-1, .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines .line-2 {
+    width: 115px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines span {
+    margin: 14px 10px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .email-sign-up {
+    width: 266px;
+    height: 34px;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .terms-and-conditions {
+    margin-top: 42px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .terms-and-conditions p {
+    font-size: 16px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-title h1 {
+    font-size: 40px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-title p {
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-email input {
+    width: 250px;
+    height: 24px;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-password input {
+    width: 250px;
+    height: 24px;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .sign-up-button {
+    width: 254px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines span {
+    margin: 18px 10px 14px 10px;
+    font-size: 15px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines .line-3, .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines .line-4 {
+    width: 68px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .other-sign-up-options .options-list li a img {
+    width: 24px;
+    height: 24px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .terms-and-conditions {
+    margin-top: 42px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .terms-and-conditions p {
+    font-size: 12px;
+  }
+  .log-in-wrapper .exit-icon a {
+    position: fixed;
+    top: 50px;
+    right: 66px;
+  }
+  .log-in-wrapper .log-in-form-1 .log-in-title h1 {
+    font-size: 40px;
+  }
+  .log-in-wrapper .log-in-form-1 .log-in-title p {
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container {
+    margin-top: 24px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .google-log-in {
+    width: 266px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .google-log-in img {
+    width: 22px;
+    height: 22px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .facebook-log-in {
+    width: 266px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .facebook-log-in i {
+    font-size: 22px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines .line-1, .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines .line-2 {
+    width: 115px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines span {
+    margin: 14px 10px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .email-log-in {
+    width: 266px;
+    height: 34px;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-title h1 {
+    font-size: 40px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-title p {
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-email input {
+    width: 250px;
+    height: 24px;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-password input {
+    width: 250px;
+    height: 24px;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container {
+    width: 254px;
+    margin-bottom: 20px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container .forgot-password {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .log-in-button {
+    width: 254px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines span {
+    margin: 18px 10px 14px 10px;
+    font-size: 15px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines .line-5, .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines .line-6 {
+    width: 76px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .other-log-in-options .options-list li a img {
+    width: 24px;
+    height: 24px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -2356,7 +2533,7 @@ footer .copyright-section a {
     max-height: 170px;
   }
   .about-the-event #about-the-event-content p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .about-the-event #about-read-more-btn {
     font-size: 16px;
@@ -2439,6 +2616,192 @@ footer .copyright-section a {
   }
   .thanks-page-wrapper .thanks-page-links-container .thanks-page-links .thanks-page-link-item .thanks-page-link {
     font-size: 16px;
+  }
+  .sign-up-wrapper .exit-icon a {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .sign-up-title h1 {
+    font-size: 34px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .sign-up-title p {
+    font-size: 12px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container {
+    margin-top: 22px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .google-sign-up {
+    width: 242px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .google-sign-up img {
+    width: 18px;
+    height: 18px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .facebook-sign-up {
+    width: 242px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .facebook-sign-up i {
+    font-size: 18px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines .line-1, .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines .line-2 {
+    width: 104px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .or-and-lines span {
+    margin: 12px 8px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .buttons-container .email-sign-up {
+    width: 242px;
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 28px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .terms-and-conditions {
+    margin-top: 34px;
+  }
+  .sign-up-wrapper .sign-up-form-1 .terms-and-conditions p {
+    font-size: 10px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-title h1 {
+    font-size: 34px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-title p {
+    font-size: 12px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-email label {
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-email input {
+    width: 228px;
+    height: 22px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-password label {
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .input-for-password input {
+    width: 228px;
+    height: 22px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .sign-up-button {
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines span {
+    margin: 16px 8px 12px 8px;
+    font-size: 12px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines .line-3, .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .or-sign-up-with-and-lines .line-4 {
+    width: 68px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .sign-up-form-container .other-sign-up-options .options-list li a img {
+    width: 20px;
+    height: 20px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .terms-and-conditions {
+    margin-top: 34px;
+  }
+  .sign-up-wrapper .sign-up-form-2 .terms-and-conditions p {
+    font-size: 10px;
+  }
+  .log-in-wrapper .exit-icon a {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+  }
+  .log-in-wrapper .log-in-form-1 .log-in-title h1 {
+    font-size: 34px;
+  }
+  .log-in-wrapper .log-in-form-1 .log-in-title p {
+    font-size: 12px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container {
+    margin-top: 22px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .google-log-in {
+    width: 242px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .google-log-in img {
+    width: 18px;
+    height: 18px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .facebook-log-in {
+    width: 242px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .facebook-log-in i {
+    font-size: 18px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines .line-1, .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines .line-2 {
+    width: 104px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .or-and-lines span {
+    margin: 12px 8px;
+  }
+  .log-in-wrapper .log-in-form-1 .buttons-container .email-log-in {
+    width: 242px;
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 28px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-title h1 {
+    font-size: 34px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-title p {
+    font-size: 12px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-email label {
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-email input {
+    width: 228px;
+    height: 22px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-password label {
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .input-for-password input {
+    width: 228px;
+    height: 22px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container {
+    width: 228px;
+    margin-bottom: 18px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .forgot-password-container .forgot-password {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .log-in-button {
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines span {
+    margin: 16px 8px 12px 8px;
+    font-size: 12px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines .line-5, .log-in-wrapper .log-in-form-2 .log-in-form-container .or-log-in-with-and-lines .line-6 {
+    width: 68px;
+  }
+  .log-in-wrapper .log-in-form-2 .log-in-form-container .other-log-in-options .options-list li a img {
+    width: 20px;
+    height: 20px;
   }
 }
 @media screen and (max-width: 300px) {
