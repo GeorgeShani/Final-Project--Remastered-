@@ -1635,10 +1635,10 @@ footer .copyright-section a {
   .about-the-event h4 {
     font-size: 28px;
   }
-  .about-the-event #about-the-event-container {
+  .about-the-event #about-the-event-content {
     max-height: 160px;
   }
-  .about-the-event #about-the-event-container p {
+  .about-the-event #about-the-event-content p {
     font-size: 15px;
   }
   .about-the-event #about-read-more-btn {
@@ -1867,10 +1867,10 @@ footer .copyright-section a {
   .about-the-event h4 {
     font-size: 24px;
   }
-  .about-the-event #about-the-event-container {
+  .about-the-event #about-the-event-content {
     max-height: 170px;
   }
-  .about-the-event #about-the-event-container p {
+  .about-the-event #about-the-event-content p {
     font-size: 12px;
   }
   .about-the-event #about-read-more-btn {
@@ -2352,10 +2352,10 @@ footer .copyright-section a {
   .about-the-event h4 {
     font-size: 20px;
   }
-  .about-the-event #about-the-event-container {
+  .about-the-event #about-the-event-content {
     max-height: 170px;
   }
-  .about-the-event #about-the-event-container p {
+  .about-the-event #about-the-event-content p {
     font-size: 10px;
   }
   .about-the-event #about-read-more-btn {
@@ -2564,11 +2564,11 @@ footer .copyright-section a {
   .about-the-event h4 {
     font-size: 20px;
   }
-  .about-the-event #about-the-event-container {
-    width: 100%;
+  .about-the-event #about-the-event-content {
+    width: 94%;
     max-height: 80px;
   }
-  .about-the-event #about-the-event-container p {
+  .about-the-event #about-the-event-content p {
     font-size: 10px;
   }
   .thanks-page-wrapper {
