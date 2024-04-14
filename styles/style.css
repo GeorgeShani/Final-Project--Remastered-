@@ -583,7 +583,7 @@ footer .copyright-section a {
 }
 .about-the-event #about-the-event-content {
   width: 62%;
-  max-height: 192px;
+  max-height: 142px;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
